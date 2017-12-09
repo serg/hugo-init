@@ -1,6 +1,6 @@
 {
   "name": "hugo-init",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Sergey Furtak",
   "license": "MIT",
   "repository": "serg/hugo-init",
@@ -14,10 +14,13 @@
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
     "brunch": "^2.10.12",
+    "clean-css-brunch": "^2.10.0",
     "html-minifier": "^3.5.7",
     "hugo-brunch": "^1.1.0",
+    "postcss-brunch": "^2.1.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
     "rimraf": "^2.6.2",
-    "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2.10.0"
   }
 }

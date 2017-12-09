@@ -1,0 +1,11 @@
+ @import "./_normalize";
+
+:root {
+  --main-bg-color: #ddd;
+  --main-text-color: #111;
+}
+
+body {
+  color: var(--main-text-color);
+  background: var(--main-bg-color);
+}
