@@ -1,12 +1,9 @@
-"use strict";
+import Modernizr from 'modernizr';
 
-require('modernizr');
-var $ = require('jquery');
-
-var App = {
-  init: function() {
+class App {
+  constructor() {
     console.log('The app is initialized!');
   }
 };
 
-module.exports = App;
+document.addEventListener('DOMContentLoaded', () => {new App;});
