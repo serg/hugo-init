@@ -45,5 +45,15 @@ draft: false
 ```
 All website pages contain the `noindex` and `nofollow` values in the meta tags when website was generated in the development or preview mode. Also the Google Analytics is absent on a page and the `robots.txt` file has an option for prevention of indexing by search engines.
 When you will be ready to share your website with a world please run the build of application in the production mode.
+## Deploying to Netlify
+
+- Push your clone to your own GitHub repository.
+- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
+
+Now Netlify will build and deploy your site whenever you push to git.
+
+You can also click this button:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/serg/hugo-init)
 ## License
 MIT © [Sergey Furtak](https://sergfurtak.com)
