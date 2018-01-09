@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
-    "babel-brunch": "babel/babel-brunch",
+    "babel-brunch": "babel/babel-brunch#c42c598",
     "brunch": "^2.10.12",
     "clean-css-brunch": "^2.10.0",
     "html-minifier": "^3.5.7",
