@@ -2,6 +2,8 @@
 A starter kit for creating a homepage static website with [Hugo framework](https://gohugo.io). You can use it as a starting point for development different kinds of page templates, which are allowed in the Hugo (e.g. for a static blog). Please see the [Hugo documentation](https://gohugo.io/documentation/) for more info.
 For managing the assets (`css`, `javascript`, etc) this template is using a [Brunch](http://brunch.io) building tool. It's fast tool, simple to configure and expand.
 
+**Please note** At the current moment this project probably can have some incompatible package cases related to the Brunch building tool (as this tool and its plugins weren't actively maintained by developers at least half of year). In general this boilerplate is working, but in some partial cases you need to find the solutions if you will customize it for fit your needs.
+
 Feel free to expand the abilities of this template to fit your requirements.
 Also please note by using this project you understand the implications and guarantees of the [MIT license](https://github.com/serg/hugo-init/blob/master/LICENSE).
 ## Requirements
